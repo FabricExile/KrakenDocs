@@ -1,6 +1,5 @@
-================
 Maya Integration
-================
+****************
 
 The Maya integration is composed of the Kraken plug-in for Maya but also the Maya plug-in that adds a menu entry for launching the Kraken UI.
 
@@ -21,7 +20,7 @@ To enable the Maya plug-in you simply need to add the following path to your MAY
    set MAYA_MODULE_PATH=/kraken/DCCIntegrations/maya
 
 
-.. seealso:: :ref:`installation-maya` for example Maya launcer scripts.
+.. seealso:: :ref:`installation-maya` for example Maya launcher scripts.
 
 
 .. include:: ../footer.rst

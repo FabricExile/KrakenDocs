@@ -37,6 +37,9 @@ DCC Installation
 **********************
 Softimage Installation
 **********************
+Users must download the PyQtForSoftimage workgroup found here:
+http://www.steven-caron.com/downloads/tools/PyQtForSoftimage_beta6.xsiaddon
+
 Once the pre-requisites have been installed, you need to connect to a few workgroups.
 
 **The order of the workgroups should be:**

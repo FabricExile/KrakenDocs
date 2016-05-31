@@ -15,6 +15,8 @@ Current Integrations
 
    /integrations/maya
    /integrations/softimage
+   /integrations/canvas
+   /integrations/kl
 
 
 .. include:: footer.rst
