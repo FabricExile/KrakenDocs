@@ -15,3 +15,6 @@ Contents:
     :undoc-members:
     :inherited-members:
     :show-inheritance:
+
+
+.. include:: ../../footer.rst

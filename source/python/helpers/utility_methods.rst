@@ -12,3 +12,6 @@ Utility Methods
     :special-members:
     :undoc-members:
     :show-inheritance:
+
+
+.. include:: ../../footer.rst

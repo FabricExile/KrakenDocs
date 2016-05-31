@@ -13,6 +13,8 @@ Modules
 
    /python/plugins/maya_plugin/maya_plugin
    /python/plugins/si_plugin/si_plugin
+   /python/plugins/canvas_plugin/canvas_plugin
+   /python/plugins/kl_plugin/kl_plugin
 
 
 Module Methods
