@@ -71,6 +71,9 @@ Environment Variables
 #####################
 |
 
+.. envvar:: KRAKEN_DCC
+
+   The DCC that Kraken is being used by. This environment variable is used in a few places, mainly for acquiring the correct builder and synchronizer.
 
 .. envvar:: KRAKEN_PATH
 

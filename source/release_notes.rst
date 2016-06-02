@@ -4,6 +4,43 @@ Release Notes
 
 
 *************
+Version 1.2.0
+*************
+
+*Released 2016-06-01*
+
+
+New Features
+   * Generic Biped Rig now buildable via the DCC plug-ins. ``Softimage`` ``Maya``
+   * Canvas Builder implemented ***WIP***. Canvas nodes can now be generated from ``*.krg`` files and can be instanced in Canvas. ``canvas`` ``builder``
+   * KL Builder implemented ***WIP***.
+   * Splash screen now shows KL loading progress via live logging from stdout. ``ui``
+   * Implemented a proper logger via the Python logging module. Reports to stdout and UI output log. ``ui``
+   * Added preference to ensure that the already built rig will be deleted before re-building a new one. ``ui``
+   * Kraken now determines what plug-in to load based on the `KRAKEN_DCC` environment variable. ``core``
+   * Traverser class now properly determines the order in which to build objects within a rig. This ensures that objects are built and evaluated in the correct order to ensure that objects are in the correct place when building dependent objects. ``core``
+   * Twist Component used for wrist twist and other parts of bipeds now included. ``components``
+   * Unit tests for all KL based solvers were created. ``kl`` ``unittest``
+
+
+Fixed
+   * Tentacle component woulnd't build due to port name restriction. Recently fix in Fabric. ``components``
+   * Need to be able to connect object visibility to other attributes ``builder``
+   * Kraken menu is removed when unloading the Kraken plug-in. ``Maya`` ``ui``
+   * Kraken plug-in will now load Fabric plug-in if not loaded when it itself is loaded. ``Maya``\
+   * Inline drawing ports are skipped when trying to make port connections. ``builder``
+
+
+Changed
+   * Builder acquisition code is now completely abstracted from the core modules. Now utilizes the plug-in structure. ``core``
+   * Knee deformer now added to the leg component. ``components``
+   * Re-designed the head and neck components. ``components``
+   * Added hand component with more robust guide solver. ``components``
+   * Re-organized components into biped and generic directories.
+   * DCC builders now set constraint offset values and don't rely on DCC's to set them. ``Maya`` ``Softimage``
+
+
+*************
 Version 1.1.0
 *************
 
