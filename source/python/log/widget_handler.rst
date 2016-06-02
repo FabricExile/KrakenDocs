@@ -1,13 +1,13 @@
-Builder
-*******
+Widget Handler
+**************
 
 .. toctree::
    :maxdepth: 2
 
 
-.. py:module:: kraken.core.builder
+.. py:module:: kraken.log.widget_handler
 
-.. autoclass:: kraken.core.builder.Builder
+.. autoclass:: kraken.log.widget_handler.WidgetHandler
     :members:
     :private-members:
     :undoc-members:

@@ -1,13 +1,13 @@
-Builder
-*******
+Traverser
+*********
 
 .. toctree::
    :maxdepth: 2
 
 
-.. py:module:: kraken.core.builder
+.. py:module:: kraken.core.traverser
 
-.. autoclass:: kraken.core.builder.Builder
+.. autoclass:: kraken.core.traverser.Traverser
     :members:
     :private-members:
     :undoc-members:

@@ -15,6 +15,7 @@ Modules
    /python/core/kraken_system
    /python/core/profiler
    /python/core/synchronizer
+   /python/core/traverser
 
    /python/core/configs/config
    /python/core/io/io
