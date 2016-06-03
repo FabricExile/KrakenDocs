@@ -92,7 +92,8 @@ Environment Variables
 ########################
 Example Launcher Scripts
 ########################
-|
+
+Example launcher scripts can be found in ``%KRAKEN_DIR%\extras\launcher_scripts\windows``
 
 ******************
 Windows Standalone

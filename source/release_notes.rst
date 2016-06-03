@@ -38,6 +38,7 @@ Changed
    * Added hand component with more robust guide solver. ``components``
    * Re-organized components into biped and generic directories.
    * DCC builders now set constraint offset values and don't rely on DCC's to set them. ``Maya`` ``Softimage``
+   * When launching Kraken, you know longer need to call the environment.bat / .sh.
 
 
 *************
