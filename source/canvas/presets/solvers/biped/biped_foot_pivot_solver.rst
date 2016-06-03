@@ -1,4 +1,4 @@
-.. _biped_foot_pivot_solver:
+.. _preset_biped_foot_pivot_solver:
 
 Biped Foot Pivot Solver
 ***********************
@@ -47,4 +47,4 @@ Class Documentation
 ===================
 
 
-.. include:: ../../../footer.rst
+.. include:: ../../../../footer.rst

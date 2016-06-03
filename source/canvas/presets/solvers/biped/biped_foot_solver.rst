@@ -1,9 +1,9 @@
-.. _biped_foot_solver:
+.. _preset_biped_foot_solver:
 
 Biped Foot Solver
 *****************
 
-This solver usually rides on top of the :ref:`Biped Foot Pivot Solver<biped_foot_pivot_solver>` and drives the ankle and toe bones of the foot. It ensures the ankle and toe keeps their alignment with the foot controls in the rig. It also blends between the IK and FK controls.
+This solver usually rides on top of the :ref:`Biped Foot Pivot Solver<preset_biped_foot_pivot_solver>` and drives the ankle and toe bones of the foot. It ensures the ankle and toe keeps their alignment with the foot controls in the rig. It also blends between the IK and FK controls.
 
 
 .. function:: BipedFootSolver(drawDebug, rigScale, ikBlend, ankleLen, toeLen, legEnd, ankleIK, toeIK, ankleFK, toeFK)
@@ -50,4 +50,4 @@ Class Documentation
 ===================
 
 
-.. include:: ../../../footer.rst
+.. include:: ../../../../footer.rst

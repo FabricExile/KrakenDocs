@@ -1,5 +1,5 @@
-DirectionConstraintSolver
-*************************
+Direction Constraint Solver
+***************************
 
 
 .. contents:: Usage Documentation

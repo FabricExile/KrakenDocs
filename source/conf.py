@@ -28,8 +28,6 @@ MOCK_MODULES = ['win32com',
                 'pymel.util',
                 'pymel.core.datatypes',
                 'maya',
-                'FabricEngine',
-                'FabricEngine.Core',
                 'PySide']
 
 for mod_name in MOCK_MODULES:
@@ -38,12 +36,14 @@ for mod_name in MOCK_MODULES:
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
-#sys.path.insert(0, os.path.abspath('.'))
+
+sys.path.insert(0, os.path.join(os.environ.get('FABRIC_DIR'), "Python/2.7"))
+sys.path.insert(0, os.path.join(os.environ.get('FABRIC_DIR'), "Python/2.7/FabricEngine/Sphinx"))
 
 # -- General configuration ------------------------------------------------
 
 # If your documentation needs a minimal Sphinx version, state it here.
-#needs_sphinx = '1.0'
+needs_sphinx = '1.3'
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
@@ -52,7 +52,9 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.ifconfig',
     'sphinx.ext.intersphinx',
-    'sphinx.ext.napoleon'
+    'sphinx.ext.napoleon',
+    'FabricEngine.Sphinx.KL',
+    'FabricEngine.Sphinx.DFG',
 ]
 
 # Add any paths that contain templates here, relative to this directory.

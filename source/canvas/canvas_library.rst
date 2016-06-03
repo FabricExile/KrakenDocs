@@ -15,10 +15,10 @@ Solvers
    :maxdepth: 1
    :titlesonly:
 
-   /canvas/solvers/direction_constraint_solver
-   /canvas/solvers/biped/biped_finger_guide_solver
-   /canvas/solvers/biped/biped_foot_solver
-   /canvas/solvers/biped/biped_foot_pivot_solver
+   /canvas/presets/solvers/direction_constraint_solver
+   /canvas/presets/solvers/biped/biped_finger_guide_solver
+   /canvas/presets/solvers/biped/biped_foot_solver
+   /canvas/presets/solvers/biped/biped_foot_pivot_solver
 
 
 .. include:: ../footer.rst

@@ -1,4 +1,4 @@
-.. _direction_constraint_solver:
+.. _preset_direction_constraint_solver:
 
 Direction Constraint Solver
 ***************************
@@ -6,7 +6,7 @@ Direction Constraint Solver
 This solver simply draws planes between each input control and aligns on each of the Y axis. This preset also takes an array of sizes that determins the height of each grid. This allows users to be able to align the guide down the length of each finger and ensure that the alignment is correct in conjunction with the geometry being rigged.
 
 
-.. function:: BipedFingerGuideSolver(drawDebug, rigScale, controls, planeSizes)
+.. function:: DirectionConstraintSolver(drawDebug, rigScale, controls, planeSizes)
 
     Draws planes between each control aligned to the Y axis.
 
@@ -37,4 +37,4 @@ Class Documentation
 ===================
 
 
-.. include:: ../../footer.rst
+.. include:: ../../../footer.rst

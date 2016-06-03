@@ -1,4 +1,4 @@
-.. _biped_finger_guide_solver:
+.. _preset_biped_finger_guide_solver:
 
 Biped Finger Guide Solver
 *************************
@@ -35,4 +35,4 @@ Class Documentation
 ===================
 
 
-.. include:: ../../../footer.rst
+.. include:: ../../../../footer.rst

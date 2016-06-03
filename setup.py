@@ -8,7 +8,7 @@ from distutils.core import setup
 setup_requires = [
     'mock >= 1.3, <2',
     'sphinx >= 1.3, < 2'
-    ]
+]
 
 install_requires = []
 
@@ -25,6 +25,5 @@ setup(name='Kraken Documentation',
       author_email='ethivierge@gmail.com',
       url='http://fabric-engine.github.io/Kraken//',
       license='BSD 3-clause "New" or "Revised" License',
-      setup_requires = setup_requires,
-      install_requires = install_requires,
-     )
+      setup_requires=setup_requires,
+      install_requires=install_requires)
