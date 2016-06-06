@@ -6,9 +6,9 @@ from setuptools import setup
 
 # Requirements.
 setup_requires = [
+    'lowdown',
     'mock',
-    'sphinx >= 1.3, < 2',
-    'lowdown'
+    'sphinx >= 1.3, < 2'
 ]
 
 install_requires = []
