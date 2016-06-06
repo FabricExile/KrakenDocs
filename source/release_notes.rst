@@ -43,8 +43,7 @@ Release Notes
    .. change:: new
       :tags: core
 
-      Traverser class now properly determines the order in which to build objects within a rig. This ensures that objects are built and
-   evaluated in the correct order to ensure that objects are in the correct place when building dependent objects.
+      Traverser class now properly determines the order in which to build objects within a rig. This ensures that objects are built and evaluated in the correct order to ensure that objects are in the correct place when building dependent objects.
 
    .. change:: new
       :tags: components
