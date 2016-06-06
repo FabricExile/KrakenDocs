@@ -6,8 +6,8 @@ Release Versions
 ================
 
 * :ref:`Release 1.2.0 <release-1.2.0>`
-* :ref:`Release 1.2.0 <release-1.1.0>`
-* :ref:`Release 1.2.0 <release-1.0.0>`
+* :ref:`Release 1.1.0 <release-1.1.0>`
+* :ref:`Release 1.0.0 <release-1.0.0>`
 
 |
 
