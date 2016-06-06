@@ -2,29 +2,16 @@
 Release Notes
 =============
 
+.. release:: 1.2.0
+   :date: 2016-06-01
 
-.. release:: 0.1.0
-    :date: 2015-01-01
+   .. change:: new
+      :tags: Softiamge, Maya
 
-    .. change:: new
-        :tags: interface
-
-        Added a fantastic new feature to the interface that you will all
-        love.
-
-
-
-
-
-*************
-Version 1.2.0
-*************
-
-*Released 2016-06-01*
+      Generic Biped Rig now buildable via the DCC plug-ins.
 
 
 New Features
-   * Generic Biped Rig now buildable via the DCC plug-ins. ``Softimage`` ``Maya``
    * Canvas Builder implemented ***WIP***. Canvas nodes can now be generated from ``*.krg`` files and can be instanced in Canvas. ``canvas`` ``builder``
    * KL Builder implemented ***WIP***.
    * Splash screen now shows KL loading progress via live logging from stdout. ``ui``
