@@ -7,7 +7,7 @@ Traverser
 
 .. py:module:: kraken.core.traverser
 
-.. autoclass:: kraken.core.Traverser
+.. autoclass:: kraken.core.traverser.Traverser
     :members:
     :private-members:
     :undoc-members:
