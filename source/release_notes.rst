@@ -10,53 +10,51 @@ Release Notes
 
       Generic Biped Rig now buildable via the DCC plug-ins.
 
-
-New Features
    .. change:: new
       :tags: canvas, builder
 
-   Canvas Builder implemented ***WIP***. Canvas nodes can now be generated from ``*.krg`` files and can be instanced in Canvas.
+      Canvas Builder implemented ***WIP***. Canvas nodes can now be generated from ``*.krg`` files and can be instanced in Canvas.
 
    .. change:: new
       :tags: KL, builder
 
-   KL Builder implemented ***WIP***.
+      KL Builder implemented ***WIP***.
 
    .. change:: new
       :tags: UI
 
-   Splash screen now shows KL loading progress via live logging from stdout.
+      Splash screen now shows KL loading progress via live logging from stdout.
 
    .. change:: new
       :tags: UI
 
-   Implemented a proper logger via the Python logging module. Reports to stdout and UI output log.
+      Implemented a proper logger via the Python logging module. Reports to stdout and UI output log.
 
    .. change:: new
       :tags: UI
 
-   Added preference to ensure that the already built rig will be deleted before re-building a new one.
+      Added preference to ensure that the already built rig will be deleted before re-building a new one.
 
    .. change:: new
       :tags: core
 
-   Kraken now determines what plug-in to load based on the `KRAKEN_DCC` environment variable.
+      Kraken now determines what plug-in to load based on the `KRAKEN_DCC` environment variable.
 
    .. change:: new
       :tags: core
 
-   Traverser class now properly determines the order in which to build objects within a rig. This ensures that objects are built and
+      Traverser class now properly determines the order in which to build objects within a rig. This ensures that objects are built and
    evaluated in the correct order to ensure that objects are in the correct place when building dependent objects.
 
    .. change:: new
       :tags: components
 
-   Twist Component used for wrist twist and other parts of bipeds now included.
+      Twist Component used for wrist twist and other parts of bipeds now included.
 
    .. change:: new
       :tags: kl, unittest
 
-   Unit tests for all KL based solvers were created.
+      Unit tests for all KL based solvers were created.
 
 
 
