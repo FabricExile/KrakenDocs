@@ -55,10 +55,11 @@ extensions = [
     'sphinx.ext.ifconfig',
     'sphinx.ext.intersphinx',
     'sphinx.ext.napoleon',
-    'FabricEngine.Sphinx.KL',
-    'FabricEngine.Sphinx.DFG',
     'lowdown'
 ]
+
+# 'FabricEngine.Sphinx.KL',
+# 'FabricEngine.Sphinx.DFG',
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
