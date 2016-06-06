@@ -84,13 +84,41 @@ Release Notes
 
 
 Changed
-   * Builder acquisition code is now completely abstracted from the core modules. Now utilizes the plug-in structure. ``core``
-   * Knee deformer now added to the leg component. ``components``
-   * Re-designed the head and neck components. ``components``
-   * Added hand component with more robust guide solver. ``components``
-   * Re-organized components into biped and generic directories.
-   * DCC builders now set constraint offset values and don't rely on DCC's to set them. ``Maya`` ``Softimage``
-   * When launching Kraken, you know longer need to call the environment.bat / .sh.
+     .. change:: changed
+      :tags: core
+
+      Builder acquisition code is now completely abstracted from the core modules. Now utilizes the plug-in structure.
+
+     .. change:: changed
+      :tags: components
+
+      Knee deformer now added to the leg component.
+
+     .. change:: changed
+      :tags: components
+
+      Re-designed the head and neck components.
+
+     .. change:: changed
+      :tags: components
+
+      Added hand component with more robust guide solver.
+
+     .. change:: changed
+      :tags: File Structure
+
+      Re-organized components into biped and generic directories.
+
+     .. change:: changed
+      :tags: Maya, Softimage
+
+      DCC builders now set constraint offset values and don't rely on DCC's to set them.
+
+     .. change:: changed
+      :tags: Launchers
+
+      When launching Kraken, you know longer need to call the environment.bat / .sh.
+
 
 
 *************
