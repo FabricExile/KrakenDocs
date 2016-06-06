@@ -55,6 +55,7 @@ extensions = [
     'sphinx.ext.napoleon',
     'FabricEngine.Sphinx.KL',
     'FabricEngine.Sphinx.DFG',
+    'lowdown'
 ]
 
 # Add any paths that contain templates here, relative to this directory.

@@ -3,6 +3,19 @@ Release Notes
 =============
 
 
+.. release:: 0.1.0
+    :date: 2015-01-01
+
+    .. change:: new
+        :tags: interface
+
+        Added a fantastic new feature to the interface that you will all
+        love.
+
+
+
+
+
 *************
 Version 1.2.0
 *************
