@@ -7,7 +7,8 @@ from distutils.core import setup
 # Requirements.
 setup_requires = [
     'mock >= 1.3, <2',
-    'sphinx >= 1.3, < 2'
+    'sphinx >= 1.3, < 2',
+    'lowdown'
 ]
 
 install_requires = []
