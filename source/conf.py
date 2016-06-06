@@ -27,6 +27,8 @@ MOCK_MODULES = ['win32com',
                 'pymel.core',
                 'pymel.util',
                 'pymel.core.datatypes',
+                'FabricEngine',
+                'FabricEngine.Core',
                 'maya',
                 'PySide']
 
@@ -37,8 +39,8 @@ for mod_name in MOCK_MODULES:
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 
-sys.path.insert(0, os.path.join(os.environ.get('FABRIC_DIR'), "Python/2.7"))
-sys.path.insert(0, os.path.join(os.environ.get('FABRIC_DIR'), "Python/2.7/FabricEngine/Sphinx"))
+# sys.path.insert(0, os.path.join(os.environ.get('FABRIC_DIR'), "Python/2.7"))
+# sys.path.insert(0, os.path.join(os.environ.get('FABRIC_DIR'), "Python/2.7/FabricEngine/Sphinx"))
 
 # -- General configuration ------------------------------------------------
 
