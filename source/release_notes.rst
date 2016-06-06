@@ -2,6 +2,17 @@
 Release Notes
 =============
 
+Release Versions
+================
+
+* :ref:`Release 1.2.0 <release-1.2.0>`
+* :ref:`Release 1.2.0 <release-1.1.0>`
+* :ref:`Release 1.2.0 <release-1.0.0>`
+
+|
+
+.. _release-1.2.0:
+
 .. release:: 1.2.0
    :date: 2016-06-01
 
@@ -117,6 +128,8 @@ Release Notes
       When launching Kraken, you know longer need to call the environment.bat / .sh.
 
 
+.. _release-1.1.0:
+
 .. release:: 1.1.0
    :date: 2016-01-15
 
@@ -230,6 +243,7 @@ Release Notes
 
       Renamed KLExts and DFG folders to be consistent with how core Fabric Engine nodes are organized.
 
+.. _release-1.0.0:
 
 .. release:: 1.0.0
    :date: 2015-08-11
