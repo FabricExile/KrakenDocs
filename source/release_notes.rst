@@ -56,13 +56,31 @@ Release Notes
       Unit tests for all KL based solvers were created.
 
 
+   .. change:: fixed
+      :tags: components
 
-Fixed
-   * Tentacle component woulnd't build due to port name restriction. Recently fix in Fabric. ``components``
-   * Need to be able to connect object visibility to other attributes ``builder``
-   * Kraken menu is removed when unloading the Kraken plug-in. ``Maya`` ``ui``
-   * Kraken plug-in will now load Fabric plug-in if not loaded when it itself is loaded. ``Maya``\
-   * Inline drawing ports are skipped when trying to make port connections. ``builder``
+      Tentacle component woulnd't build due to port name restriction. Recently fix in Fabric.
+
+   .. change:: fixed
+      :tags: builder
+
+      Need to be able to connect object visibility to other attributes.
+
+   .. change:: fixed
+      :tags: Maya, UI
+
+      Kraken menu is removed when unloading the Kraken plug-in.
+
+   .. change:: fixed
+      :tags: Maya
+
+      Kraken plug-in will now load Fabric plug-in if not loaded when it itself is loaded.
+
+   .. change:: fixed
+      :tags: builder
+
+      Inline drawing ports are skipped when trying to make port connections.
+
 
 
 Changed
