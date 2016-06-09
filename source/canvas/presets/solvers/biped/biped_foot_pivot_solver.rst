@@ -8,7 +8,7 @@ This solver allows users to control where the front, back, left, and right pivot
 
 .. function:: BipedFootPivotSolver(drawDebug, rigScale, rightSide, footRock, footBank, pivotAll, backPivot, frontPivot, outerPivot, innerPivot)
 
-    Draws planes between each control aligned to the Y axis.
+    Drives the ankle and toe bones of a foot between the IK and FK controls.
 
     :param drawDebug: Whether to activate debug drawing or not.
     :type drawDebug: Boolean
@@ -37,14 +37,6 @@ This solver allows users to control where the front, back, left, and right pivot
     :width: 600px
 
     Biped Finger Guide in Maya
-
-
-.. contents:: Usage Documentation
-   :local:
-
-
-Class Documentation
-===================
 
 
 .. include:: ../../../../footer.rst

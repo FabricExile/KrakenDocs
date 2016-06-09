@@ -42,12 +42,4 @@ This solver usually rides on top of the :ref:`Biped Foot Pivot Solver<preset_bip
     Biped Finger Guide in Maya
 
 
-.. contents:: Usage Documentation
-   :local:
-
-
-Class Documentation
-===================
-
-
 .. include:: ../../../../footer.rst
