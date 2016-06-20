@@ -27,6 +27,11 @@ Release Versions
       Canvas Builder implemented ***WIP***. Canvas nodes can now be generated from ``*.krg`` files and can be instanced in Canvas.
 
    .. change:: new
+      :tags: rigs
+
+      Guide rig data used to build a rig is now stored on each rig as meta data. Users can re-generate guides from rigs now!
+
+   .. change:: new
       :tags: KL, builder
 
       KL Builder implemented ***WIP***.
@@ -125,7 +130,7 @@ Release Versions
    .. change:: changed
       :tags: extras
 
-      When launching Kraken, you know longer need to call the environment.bat / .sh.
+      When launching Kraken, you know longer need to call the environment.bat / .sh and only need to set custom paths to custom extensions and dfg presets
 
 
 .. _release-1.1.0:

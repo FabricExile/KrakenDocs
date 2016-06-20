@@ -127,10 +127,11 @@ Softimage 2015
 
 ::
 
-   set KRAKEN_PATH=C:\Users\Eric\Documents\dev\kraken
-   set FABRIC_EXTS_PATH=%KRAKEN_PATH%\Exts;
-   set FABRIC_DFG_PATH=%KRAKEN_PATH%\Presets\DFG;
-   set PYTHONPATH=%PYTHONPATH%;%KRAKEN_PATH%\Python;
+   @ECHO OFF
+   ECHO "Releasing The Kraken!"
+
+   set FABRIC_EXTS_PATH=C:\Users\Eric\Documents\CustomExts;
+   set FABRIC_DFG_PATH=C:\Users\Eric\Documents\CustomPresets;
 
    call "C:\Program Files\Autodesk\Softimage 2015 SP1\Application\bin\XSI.bat"
 
@@ -145,15 +146,15 @@ Maya 2016
 
 ::
 
-   set KRAKEN_PATH=C:\Users\Eric\Documents\dev\kraken
-   set FABRIC_EXTS_PATH=%FABRIC_EXTS_PATH%;%KRAKEN_PATH%\Exts;
-   set FABRIC_DFG_PATH=%FABRIC_DFG_PATH%;%KRAKEN_PATH%\Presets\DFG;
-   set PYTHONPATH=%PYTHONPATH%;%KRAKEN_PATH%\Python;
+   @ECHO OFF
+   ECHO "Releasing The Kraken!"
 
-   set MAYA_MODULE_PATH=C:\Users\Eric\Documents\fabric\FabricEngine-2.2.0-Windows-x86_64\DCCIntegrations\FabricMaya2016;%KRAKEN_PATH%\DCCIntegrations\maya;
+   set FABRIC_EXTS_PATH=C:\Users\Eric\Documents\CustomExts
+   set FABRIC_DFG_PATH=C:\Users\Eric\Documents\CustomPresets
+
+   set MAYA_MODULE_PATH=C:\Users\Eric\Documents\fabric\FabricEngine-2.2.0-Windows-x86_64\DCCIntegrations\FabricMaya2016;C:\Users\Eric\Documents\dev\kraken\DCCIntegrations\maya;
 
    start /d "C:\Program Files\Autodesk\Maya2016\bin" maya.exe
-
 
    echo OFF
 
