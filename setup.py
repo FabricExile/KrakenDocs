@@ -20,7 +20,7 @@ if on_rtd:
     install_requires.extend(setup_requires)
 
 setup(name='Kraken Documentation',
-      version='1.1.0',
+      version='1.2.0',
       description='Kraken Rigging Framework Documentation',
       author='Eric Thivierge, Phil Taylor',
       author_email='ethivierge@gmail.com',
