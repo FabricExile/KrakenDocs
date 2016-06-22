@@ -10,7 +10,7 @@ Installation
 ##############
 Pre-Requisites
 ##############
-* Fabric Engine 2.0.x
+* Fabric Engine 2.2.x (2.2.x Daily Build for Softimage)
 * PySide 1.2.2
 * Python 2.7.x
 * PyWin32 (Softimage requirement)
