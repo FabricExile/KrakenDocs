@@ -15,6 +15,7 @@ Modules
 
    /python/core/core
    /python/helpers/helpers
+   /python/log/log
    /python/plugins/plugins
    /python/ui/ui
 

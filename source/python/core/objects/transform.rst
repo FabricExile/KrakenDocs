@@ -1,5 +1,5 @@
-Logger
-******
+Transform
+*********
 
 
 .. contents:: Usage Documentation
@@ -9,13 +9,13 @@ Logger
 Class Documentation
 ===================
 
-.. autoclass:: kraken.plugins.maya_plugin.logger.OutputLog
+.. autoclass:: kraken.core.objects.transform.Transform
     :members:
     :private-members:
     :special-members:
     :undoc-members:
     :show-inheritance:
-    :exclude-members: __module__
+    :exclude-members: __module__, __dict__, __weakref__
 
 
 .. include:: ../../../footer.rst

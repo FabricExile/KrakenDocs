@@ -30,6 +30,9 @@ Save
 Load
    Load a ``*.krg`` file into the graph as a new graph. The current graph will be cleared.
 
+Recent Files
+   List of recently opened files.
+
 Close
    Closes the UI and asks to save the current rig.
 
@@ -54,8 +57,14 @@ Paste Mirrored
 Paste Mirrored Connected
    Pastes a mirroried copy of the components and keeps connections.
 
+Add Backdrop
+   Adds a backdrop node to the graph.
+
 Rig Name
    Allows you to edit the rig name via a modal input box.
+
+Preferences..
+   Opens the preference editor interface.
 
 |
 
@@ -73,12 +82,23 @@ Build Rig
 
 |
 
-Panels Menu
+Tools Menu
+----------
+
+Reload Components
+   Reloads the Python classes that defines each component.
+
+|
+
+View Menu
 -----------
 |
 
 Component Library
    Toggles the component library to be visible.
+
+Snap To Grid
+   Snaps the nodes to the grid of the graph view.
 
 |
 
@@ -86,8 +106,14 @@ Help Menu
 ---------
 |
 
-Online Help
-   Opens a browser page to the Kraken web page.
+Kraken Web Site
+   Opens the Kraken web site with links to the github web site, documentation, and download links.
+
+Kraken Documentation
+   Opens the Kraken documentation web site hosted at Read The Docs.
+
+Fabric Forums
+   Opens the Kraken forum category in the Fabric Engine forums.
 
 |
 

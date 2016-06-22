@@ -1,32 +1,29 @@
-=====================
 Softimage Integration
-=====================
+*********************
 
-The Softimage integration is composed of the Kraken plug-in for Softimage but also the Softimage workgroup and plug-in that adds a menu entry for launching the Kraken UI.
-
-
-.. contents::
-   :local:
+The Softimage integration is composed of the Kraken plug-in for Softimage but also the Softimage workgroup and plug-in that adds a menu entry for launching the Kraken UI. The functionality of Kraken is the same as the stand alone other than this integration creates Softimage objects with the current scene.
 
 
-PyQtForSoftimage
-----------------
-http://www.steven-caron.com/downloads/tools/PyQtForSoftimage_beta6.xsiaddon
+.. seealso:: :ref:`installation-softimage` for installation and example Softimage launcher scripts.
 
 
-Softimage Workgroup & Plug-in
------------------------------
+.. figure:: /images/Kraken_UI_Softimage.png
+    :align: center
+    :width: 600px
 
-Simply connect to the Softimage workgroup that is found in following directory.
+    Kraken UI Softimage
 
-.. highlight:: bash
+.. figure:: /images/Kraken_Guide_Softimage.png
+    :align: center
+    :width: 600px
 
-::
+    Kraken Guide Softimage
 
-   /kraken/DCCIntegrations/softimage
+.. figure:: /images/Kraken_Menu_Softimage.png
+    :align: center
+    :width: 600px
 
-
-.. seealso:: :ref:`installation-softimage` for example Maya launcer scripts.
+    Kraken Menu Softimage
 
 
 .. include:: ../footer.rst

@@ -29,6 +29,7 @@ Modules
    /python/core/objects/object_3d
    /python/core/objects/rig
    /python/core/objects/scene_item
+   /python/core/objects/transform
 
 
 Module Methods

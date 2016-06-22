@@ -1,14 +1,15 @@
 #!/usr/bin/env python
 
 import os
-from distutils.core import setup
+from setuptools import setup
 
 
 # Requirements.
 setup_requires = [
-    'mock >= 1.3, <2',
+    'lowdown',
+    'mock',
     'sphinx >= 1.3, < 2'
-    ]
+]
 
 install_requires = []
 
@@ -19,12 +20,11 @@ if on_rtd:
     install_requires.extend(setup_requires)
 
 setup(name='Kraken Documentation',
-      version='1.1.0',
+      version='1.2.0',
       description='Kraken Rigging Framework Documentation',
       author='Eric Thivierge, Phil Taylor',
       author_email='ethivierge@gmail.com',
       url='http://fabric-engine.github.io/Kraken//',
       license='BSD 3-clause "New" or "Revised" License',
-      setup_requires = setup_requires,
-      install_requires = install_requires,
-     )
+      setup_requires=setup_requires,
+      install_requires=install_requires)

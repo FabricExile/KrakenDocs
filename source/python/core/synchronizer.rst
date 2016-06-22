@@ -1,9 +1,6 @@
 Synchronizer
 ************
 
-
-Contents:
-
 .. toctree::
    :maxdepth: 2
 

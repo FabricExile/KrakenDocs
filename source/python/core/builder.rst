@@ -1,8 +1,6 @@
 Builder
 *******
 
-Contents:
-
 .. toctree::
    :maxdepth: 2
 
@@ -15,3 +13,6 @@ Contents:
     :undoc-members:
     :inherited-members:
     :show-inheritance:
+
+
+.. include:: ../../footer.rst
