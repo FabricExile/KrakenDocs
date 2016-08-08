@@ -37,6 +37,9 @@ DCC Installation
 **********************
 Softimage Installation
 **********************
+
+**Supported versions:** 2015 SP2
+
 Users must download the PyQtForSoftimage workgroup found here:
 http://www.steven-caron.com/downloads/tools/PyQtForSoftimage_beta6.xsiaddon
 
@@ -55,6 +58,9 @@ Once the pre-requisites have been installed, you need to connect to a few workgr
 *****************
 Maya Installation
 *****************
+
+**Supported versions:** 2015, 2016, 2017
+
 Once the pre-requisites have been installed, you need to add Fabric and Kraken to the MAYA_MODULE_PATH. See the example launcher script below or see teh Maya documentation on how to add paths to the MAYA_MODULE_PATH.
 
 Once added, you'll have to activate the plug-ins by going to Window > Settings / Preferences > Plug-in Manager. There you should activate:
