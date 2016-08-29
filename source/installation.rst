@@ -146,17 +146,15 @@ Example Launcher Scripts
 
 Example launcher scripts can be found in ``%KRAKEN_DIR%\extras\launcher_scripts\windows``
 
+.. _launcher-stand-alone:
+
 ******************
 Windows Standalone
 ******************
 
 |
 
-.. _launcher-stand-alone:
-
-.. highlight:: bash
-
-::
+.. code:: bash
 
    call C:\Users\Eric\Documents\fabric\FabricEngine-2.2.0-Windows-x86_64\environment.bat
 
@@ -180,9 +178,7 @@ Softimage 2015
 
 |
 
-.. highlight:: bash
-
-::
+.. code:: bash
 
    @ECHO OFF
    ECHO "Releasing The Kraken!"
@@ -202,9 +198,7 @@ Maya 2016
 
 |
 
-.. highlight:: bash
-
-::
+.. code:: bash
 
    @ECHO OFF
    ECHO "Releasing The Kraken!"
