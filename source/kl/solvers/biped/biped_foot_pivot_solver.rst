@@ -7,6 +7,7 @@ This solver allows users to control where the front, back, left, and right pivot
 
 
 .. function:: BipedFootPivotSolver(drawDebug, rigScale, rightSide, footRock, footBank, pivotAll, backPivot, frontPivot, outerPivot, innerPivot)
+    :noindex:
 
     Drives the 4 pivots for the front, back, left, and right side of the foot.
 
