@@ -5,11 +5,121 @@ Release Notes
 Release Versions
 ================
 
+* :ref:`Release 1.2.5 <release-1.2.5>`
 * :ref:`Release 1.2.0 <release-1.2.0>`
 * :ref:`Release 1.1.0 <release-1.1.0>`
 * :ref:`Release 1.0.0 <release-1.0.0>`
 
 |
+
+
+.. _release-1.2.5:
+
+.. release:: 1.2.5
+   :date: 2017-01-16
+
+   .. change:: new
+      :tags: ui
+
+      Using Qt.py module to have compatibility with PySide2 and Maya 2017.
+
+      Note: Kraken for Maya 2017 is functional, however additional work is needed to fix the node graph.
+
+   .. change:: new
+      :tags: maya
+
+      Kraken uses custom ``KrakenConstraint`` Maya node to improve rig performance. Can revert to core Maya constraints via ``UseMayaNativeConstraints`` meta data in config.
+
+   .. change:: new
+      :tags: solvers, presets
+
+      Added 2 new solver presets for fk chain collsion and spring arrays.
+
+   .. change:: new
+      :tags: solvers, core
+
+      Solvers can now have default values set when defining solvers in KL extensions.
+
+   .. change:: new
+      :tags: config
+
+      KL, Canvas Ops, and Constraints can now be named via the config.
+
+   .. change:: new
+      :tags: objects
+
+      Objects now can now have flags set on creation using the ``flags`` keyword argument.
+
+   .. change:: new
+      :tags: joint
+
+      Users can now set the joint radius via a keyword argument.
+
+   .. change:: new
+      :tags: utilities
+
+      New utility script to generate Kraken Canvas presets for KL extensions and Solvers.
+
+   .. change:: new
+      :tags: core, builders
+
+      Builders now check and report if Solvers and Constraints don't evaluate before build.
+
+   .. change:: new
+      :tags: core
+
+      Kraken now uses KL auto namespacing.
+
+   .. change:: fixed
+      :tags: ui, preferences
+
+      Config name is now saved in the application QT preferences instead of an index. ``*.krg`` rig files also store and load the config if found.
+
+   .. change:: fixed
+      :tags: core, synchronizer
+
+      Skip syncing of Guide Settings.
+
+   .. change:: changed
+      :tags: core, maths
+
+      Moved rotation order ``Integer`` to ``String`` mapping to constants module.
+
+   .. change:: changed
+      :tags: core, maths
+
+      Rotation Order indices updated and sync'd with changes in Fabric Core.
+
+   .. change:: changed
+      :tags: ui
+
+      Conform UX to Canvas interaction. Clicking on nodes move them to the foreground and push other nodes backwards.
+
+   .. change:: changed
+      :tags: core, components
+
+      Component ``location`` changed to a String Attribute allowing for the on changed callback.
+
+   .. change:: changed
+      :tags: core, ui
+
+      Logic to test if component ports can be connected moved from UI to core.
+
+   .. change:: changed
+      :tags: core, config
+
+      Implemented 330-HTMLColors. We now use the standard HTML color strings for defining colors in Kraken. No longer use Maya color indices.
+
+   .. change:: changed
+      :tags: components
+
+      Better debug drawing for the Dynamic Chain & FK Chain components, and Multipose Constraint solver.
+
+   .. change:: changed
+      :tags: core, maya, softimage
+
+      Combined KL and CanvasOp methods to reduce duplicated code.
+
 
 .. _release-1.2.0:
 
