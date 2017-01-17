@@ -33,7 +33,7 @@ Release Versions
    .. change:: new
       :tags: solvers, presets
 
-      Added 2 new solver presets for fk chain collsion and spring arrays.
+      Added 2 new solver presets for fk chain collision and spring arrays.
 
    .. change:: new
       :tags: solvers, core
