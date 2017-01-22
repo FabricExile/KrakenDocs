@@ -19,6 +19,11 @@ Release Versions
    :date: 2017-01-16
 
    .. change:: new
+      :tags: core
+
+      Kraken is now included with Fabric Engine 2.4. Those wishing to have custom version will need to modify their environment.bat and launcher files accordingly.
+
+   .. change:: new
       :tags: ui
 
       Using Qt.py module to have compatibility with PySide2 and Maya 2017.
