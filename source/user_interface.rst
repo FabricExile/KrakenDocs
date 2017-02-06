@@ -1,6 +1,6 @@
-##############
+==============
 User Interface
-##############
+==============
 
 Kraken comes with a nodal inteface that allows for quickly prototyping rigs and re-using the configuration at a later time.
 

@@ -12,6 +12,7 @@ Sections
    :titlesonly:
 
    python_library
+   python_unittests
 
 
 .. contents:: Usage Documentation
